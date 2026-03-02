@@ -22,13 +22,10 @@ def main():
                  "--max_tokens_per_doc", "200",
                  "--max_total_sequences", "20000",
 ]
-            # run train.py and capture printed line
             out = subprocess.check_output(cmd, text=True).strip()
             print(out)
 
-            # parse: "n=... seed=... val_loss=... val_acc=..."
             parts = out.replace("=", " ").split()
-            # parts example: ['n', '500', 'seed', '0', 'val_loss', '3.1234', 'val_acc', '0.0521']
             parsed = {parts[i]: parts[i+1] for i in range(0, len(parts), 2)}
 
             rows.append({
@@ -38,7 +35,6 @@ def main():
                 "val_acc": float(parsed["val_acc"]),
             })
 
-    # write csv
     with open(results_csv, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=["n", "seed", "val_loss", "val_acc"])
         writer.writeheader()
