@@ -8,7 +8,7 @@ ds = load_dataset(
 )
 
 out_path = "openwebtext_100.json"
-n = 100
+n = 500
 
 data = []
 for doc in ds.take(n):

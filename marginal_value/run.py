@@ -15,12 +15,12 @@ def main():
     for n in NS:
         for seed in SEEDS:
             cmd = [
-                 sys.executable, train_py,
-                 "--n", str(n),
-                 "--seed", str(seed),
-                 "--epochs", "1",
-                 "--max_tokens_per_doc", "200",
-                 "--max_total_sequences", "20000",
+                sys.executable, train_py,
+                "--n", str(n),
+                "--seed", str(seed),
+                "--epochs", "3",
+                "--max_tokens_per_doc", "200",
+                "--max_total_sequences", "20000",
 ]
             out = subprocess.check_output(cmd, text=True).strip()
             print(out)

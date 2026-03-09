@@ -75,8 +75,8 @@ def main():
     parser.add_argument("--data_path", type=str, default=default_data_path)
     parser.add_argument("--n", type=int, default=None, help="Number of documents to sample (with replacement).")
     parser.add_argument("--seed", type=int, default=0)
-    parser.add_argument("--seq_length", type=int, default=50)
-    parser.add_argument("--epochs", type=int, default=5)
+    parser.add_argument("--seq_length", type=int, default=20)
+    parser.add_argument("--epochs", type=int, default=3)
     parser.add_argument("--batch_size", type=int, default=128)
 
     parser.add_argument("--max_tokens_per_doc", type=int, default=400, help="Cap tokens per doc for speed.")
@@ -99,16 +99,12 @@ def main():
     if m < 2:
         raise ValueError("Need at least 2 documents total.")
 
-    sampled_indices = [random.randrange(m) for _ in range(args.n)]
-    sampled_set = set(sampled_indices)
+    holdout = max(1, int(0.1 * m))
+    val_docs = cleaned_docs[:holdout]
+    pool = cleaned_docs[holdout:]
+    sampled_indices = random.sample(range(len(pool)), min(args.n, len(pool)))
+    train_docs = [pool[i] for i in sampled_indices]
 
-    train_docs = [cleaned_docs[i] for i in sampled_indices]  
-    val_docs = [cleaned_docs[i] for i in range(m) if i not in sampled_set]  
-
-    if len(val_docs) == 0:
-        holdout = max(1, int(0.1 * m))
-        val_docs = cleaned_docs[:holdout]
-        train_docs = cleaned_docs[holdout:]
 
     tokenizer = Tokenizer()
     tokenizer.fit_on_texts(train_docs)
