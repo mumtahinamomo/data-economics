@@ -4,6 +4,7 @@ import json
 import random
 import re
 import numpy as np
+import tensorflow.keras as keras
 
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
@@ -70,7 +71,7 @@ def build_sequences_from_docs(
 
 def main():
     parser = argparse.ArgumentParser()
-    default_data_path = os.path.join(os.path.dirname(__file__), "openwebtext_500.json")
+    default_data_path = os.path.join(os.path.dirname(__file__), "openwebtext_100.json")
     parser.add_argument("--data_path", type=str, default=default_data_path)
     parser.add_argument("--n", type=int, default=None, help="Number of documents to sample (with replacement).")
     parser.add_argument("--seed", type=int, default=0)
@@ -139,11 +140,11 @@ def main():
     model.compile(
         loss="sparse_categorical_crossentropy",
         optimizer="adam",
-        metrics=["sparse_categorical_accuracy"],
+        metrics=[keras.metrics.SparseTopKCategoricalAccuracy(25)],
     )
 
     model.fit(X_train, y_train, epochs=args.epochs, batch_size=args.batch_size, verbose=0)
-    loss, acc = model.evaluate(X_val, y_val, verbose=0)
+    loss, acc = model.evaluate(X_val, y_val, verbose=0) #change that to sparse top cateogeorical accuracy
 
     print(f"n={args.n} seed={args.seed} val_loss={loss:.4f} val_acc={acc:.4f}")
 

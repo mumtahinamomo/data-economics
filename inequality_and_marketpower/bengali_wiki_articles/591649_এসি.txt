@@ -1,0 +1,41 @@
+TITLE: .এসি
+ID: 591649
+WORDS: 234
+============================================================
+
+অনু.
+
+.এসি হল সেইন্ট হেলেনা, অ্যাসেনশন এবং ত্রিস্তান দা চুনহা -এর জন্য কাউন্ট্রি কোড টপ লেভেল ডোমেইন, ইন্টারনেট প্রদ্ত্ত রাষ্ট্রীয় সংকেত ও ডোমেইন সাফিক্স। এটি নিয়ন্ত্রণ করে থাকে “এনআইসি.এসি ডোমেইন কর্তৃপক্ষ, যেটি যুক্তরাজ্যভিত্তিক একটি ইন্টারনেট কম্পিউটার ব্যুরোর একটি শাখা।
+এই ডোমেনের জন্য নিবন্ধন সবার জন্য উন্মুক্ত। রেজিস্ট্রিটি আন্তর্জাতিক ডোমেন নামগুলির রেজিস্ট্রেশন গ্রহণ করে.
+
+"একাডেমিক" -এর সংক্ষিপ্ত রুপ
+একাডেমিক কান্ট্রি কোড টপ-লেভেল ডোমেইন-এর সঙ্গে মিল থাকায় কিছু শিক্ষা প্রতিষ্ঠান .এসি কোড ব্যবহার করে,
+
+The University of Kurdistan - Hawler
+Ralston College in Savannah, [জর্জিয়া, যুক্তরাষ্ট্র
+The Faith Mission Bible College in এডিনবরা, স্কটল্যান্ড
+The Mahidol Oxford Tropical Medicine Research Unit (MORU) in ব্যাংকক, থাইল্যান্ড
+INFORM (Information Network Focus on Religious Movements), based at the লন্ডন স্কুল অব ইকোনমিক্স
+Newcastle University, an online institution unconnected with Newcastle University in the United Kingdom and the University of Newcastle, Australia
+ব্রিটেনের কিছু নামকরা বিশ্ববিদ্যালয় ব্রিটেন .এসি ডোমেইন ব্যবহার করে এবং .এসি থেকে ওয়েব পাতা .এসি.ইউকে তে পুনরনিরদেশনা করে।
+উদহরন স্বরুপ
+
+অক্সফোর্ড বিশ্ববিদ্যালয় from http://www.oxford.ac
+University of Manchester from http://www.manchester.ac
+University of Leeds from https://web.archive.org/web/20190504025001/http://leeds.ac/ through https://web.archive.org/web/20180329192803/http://leeds.edu/, a placeholder URL.
+University of the Arts London from http://www.arts.ac.uk
+University of Bath from http://www.bath.ac
+University of Hull from https://web.archive.org/web/20160110065441/http://hull.ac/
+
+উল্লেখযোগ্য ব্যবহার
+১০ ডিসেম্বর ২০১৩, The Pirate Bay switched to an .ac domain.
+
+আর দেখুন
+.ইউকে
+.এসএইস
+
+তথ্যসূত্র
+
+বহিঃসংযোগ
+"Delegation Record for .AC"। ১ মে ২০১১। সংগ্রহের তারিখ ২৩ মে ২০১৩।
+.AC Domain Name Registry  ওয়েব্যাক মেশিনে আর্কাইভকৃত ১৩ ফেব্রুয়ারি ২০১৯ তারিখে

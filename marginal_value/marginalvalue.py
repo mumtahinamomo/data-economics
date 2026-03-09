@@ -7,8 +7,8 @@ ds = load_dataset(
     streaming=True
 )
 
-out_path = "openwebtext_500.json"
-n = 500
+out_path = "openwebtext_100.json"
+n = 100
 
 data = []
 for doc in ds.take(n):

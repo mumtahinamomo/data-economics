@@ -1,0 +1,28 @@
+TITLE: অর্থনৈতিক চক্র
+ID: 14663
+WORDS: 285
+============================================================
+
+অর্থনৈতিক চক্র (বা ব্যবসায় চক্র or বুম-বাস্ট চক্র) বলতে একটি বাজার অর্থনীতিতে বেশ কয়েক মাস বা বছর ধরে সমষ্টিগত উৎপাদন, বাণিজ্য ও অর্থনৈতিক কার্যকলাপের দীর্ঘ স্থায়ী ক্রমিক উত্থান ও পতনকে বোঝায়। আরো সুনির্দিষ্টভাবে, অর্থনৈতিক চক্র হলো মোট দেশজ উত্পাদনের (জিডিপি) পর্যায়ক্রমিক উর্ধ্বগামীতা এবং নিম্নগামীতা।
+দেশজ উৎপাদনের ক্রমান্বয়ী নিম্নগামীতাকে অর্থনৈতিক মন্দা হিসেবে অভিহিত করা হয়। ১৯৩০-এর মার্কিন যুক্তরাষ্ট্রের গভীর ও দীর্ঘস্থায়ী অর্থনৈতিক মন্দা অর্থনীতিবিষয়ক আলোচনার অন্যতম বিষয়। এ সময় মানুষের বেকারত্ব এমন ব্যাপকভাবে বৃদ্ধি পেয়েছিল যা আর কখনো ঘটেনি।
+
+অর্থনৈতিক মন্দার অবসান
+
+টীকা-ভাষ্য
+
+তথ্যসূত্র
+From (2008) The New Palgrave Dictionary of Economics, 2nd Edition:
+Christopher J. Erceg. "monetary business cycle models (sticky prices and wages)." Abstract.
+Christian Hellwig. "monetary business cycles (imperfect information)." Abstract.
+Ellen R. McGrattan "real business cycles." Abstract.
+Eckstein, Otto; Sinai, Allen (১৯৯০)। "1. The Mechanisms of the Business Cycle in the Postwar Period"।  Robert J. Gordon (সম্পাদক)। The American Business Cycle: Continuity and Change। University of Chicago Press। আইএসবিএন ৯৭৮-০-২২৬-৩০৪৫৩-৩।
+Romer, Christina D. (২০০৮)। "Business Cycles"।  Henderson, David R. (সম্পাদক)। Concise Encyclopedia of Economics (2nd সংস্করণ)। Indianapolis: Library of Economics and Liberty। আইএসবিএন ৯৭৮-০৮৬৫৯৭৬৬৫৮। ওসিএলসি 237794267।
+Summers, Lawrence H. (১৯৮৬)। "Some Skeptical Observations on Real Business Cycle Theory" (পিডিএফ)। Federal Reserve Bank of Minneapolis Quarterly Review। ১০ (Fall): ২৩–২৭।
+
+বহিঃসংযোগ
+
+The Conference Board Business Cycle Indicators – Indicators of Euro Area, United States, Japan, China and so on.
+A Spectral Analysis of World GDP Dynamics: Kondratieff Waves, Kuznets Swings, Juglar and Kitchin Cycles in Global Economic Development, and the 2008–2009 Economic Crisis ,Korotayev, Andrey V and Tsirel, Sergey V.
+Historical documents relating to past business cycles, including charts, data publications, speeches, and analyses
+Business-Cycle Conditions Business-cycle analysis from American Institute for Economic Research (AIER)
+Video explaining the mechanics of the business/market cycle

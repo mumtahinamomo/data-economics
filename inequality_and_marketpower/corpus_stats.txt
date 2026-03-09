@@ -1,0 +1,8 @@
+Bengali Wikipedia Corpus -- Statistics
+========================================
+total_articles      : 500
+total_words         : 192,364
+avg_words           : 384.7
+min_words           : 10
+max_words           : 6,941
+median_words        : 212
