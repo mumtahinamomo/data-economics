@@ -69,14 +69,14 @@ We trained an LSTM next-word prediction model on both corpora, varying the numbe
 - Variance: High across seeds, indicating model instability
 
 **English (High-Resource):**
-- Accuracy range: 0.31 – 0.36
+- Accuracy range: 0.35 – 0.36
 - Trend: Gradual decline with signs of potential stabilization
-- Floor: ~0.31, never drops below Bengali's best performance
+- Floor: ~0.35, never drops below Bengali's best performance
 - Variance: Lower than Bengali, indicating more stable learning
 
 #### The Inequality Gap
 
-The most striking finding is that Bengali's best accuracy (0.23) never reaches English's worst accuracy (0.31). This gap persists regardless of how much Bengali data is added. 
+The most striking finding is that Bengali's best accuracy (0.23) never reaches English's worst accuracy (0.35). This gap persists regardless of how much Bengali data is added. 
 
 ---
 
